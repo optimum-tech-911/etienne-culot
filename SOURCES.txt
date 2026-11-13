@@ -50,3 +50,14 @@ https://www.instagram.com/p/DdLR10kCBoB/
 Fichier : dist/assets/product-8.webp
 
 Deuxième vue de la boutique : dist/assets/boutique-detail.jpg, original OCF 1600 × 1200, même publication fournisseur que boutique-hd.jpg.
+
+V6 — identité et présentations circulaires
+
+Monogramme EC officiel : image de profil Instagram de la pâtisserie.
+https://www.instagram.com/etienneculotpatisserie/?hl=fr
+Fichier : dist/assets/brand-ec.jpg, 746 × 746.
+Image téléchargée intacte depuis la ressource d’image du profil officiel ; aucun redessin, SVG généré ni retouche des pixels.
+Usages : en-tête, hero, menu, pied de page et favicon. Les cercles de présentation sont des masques CSS ; les photographies sources restent inchangées.
+
+Typographie : dist/assets/cormorant.woff2 correspond au Cormorant Garamond Latin du dossier de préparation. Licence locale : dist/assets/cormorant-LICENSE.txt, SIL Open Font License 1.1. Manrope et sa licence locale sont conservés pour l’interface et la recomposition espacée du nom écrit.
+Les annonces Instagram servent de référence visuelle pour le romain fin et les minuscules espacées. Le nom exact de la police de la marque n’a pas été vérifié ; Cormorant Garamond est un rapprochement visuel, pas une identification officielle. La typographie de l’interface Instagram n’est pas celle de l’identité de la pâtisserie.

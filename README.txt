@@ -1,4 +1,4 @@
-ÉTIENNE CULOT — VERSION LOCALE V5
+ÉTIENNE CULOT — VERSION LOCALE V6
 
 Développement local. Aucun déploiement ni publication sans demande explicite de l’utilisateur. Ne pas utiliser ChatGPT Sites. Voir AGENTS.md.
 
@@ -43,6 +43,13 @@ Valider les textes et les droits de réutilisation des photographies avec la cli
 - DESIGN.md : direction visuelle et règles d’interaction.
 - SOURCES.txt : provenance des photographies.
 
+IDENTITÉ ET CADRAGE
+Le monogramme EC provient de l’image de profil Instagram officielle : https://www.instagram.com/etienneculotpatisserie/?hl=fr
+Fichier local : dist/assets/brand-ec.jpg, 746 × 746. Le téléchargement est conservé sans retouche ; le logo est utilisé dans l’en-tête, le hero, le menu, le pied de page et le favicon.
+Le nom « etienne culot » est présenté en minuscules droites et espacées, d’après la composition observée sur les visuels Instagram. Cette recomposition en Manrope ne prétend pas fournir un logotype vectoriel officiel.
+Les titres emploient le fichier local Cormorant Garamond droit, avec licence SIL OFL jointe ; c’est un rapprochement visuel avec les annonces, pas une identification vérifiée de la police de la marque. Les emphases des titres restent droites.
+Les photographies de produits sont présentées dans des cercles dans le hero, la collection, l’orbite et les vignettes. Le cadrage carré en object-fit: cover coupe le décor autour des pâtisseries ; le produit reste entier. Deux positions adaptées protègent la brioche (50% 65%) et la tropézienne (50% 38%). Les fichiers originaux ne sont pas modifiés et le dialogue de détail conserve la photographie entière en object-fit: contain.
+
 INTERACTIONS
 - Navigation : libellés simples, sans numérotation visible. Menu plein écran prune avec dévoilement animé, liens décalés et aperçu photographique lorsque l’espace le permet.
 - Scène d’ouverture : huit choix ; la création active et ses deux voisines occupent le premier plan. Les photographies flottent en perspective CSS. Glissement horizontal, choix directs et clavier ; toucher la création active ouvre sa photographie.
@@ -55,6 +62,7 @@ INTERACTIONS
 - Ruban et mouvement : le ruban défile lorsqu’il est visible. « Pause » et la commande du pied de page partagent un réglage global mémorisé. Le réglage système de réduction des animations est respecté ; les transitions JavaScript en cours sont aussi annulées, sans bloquer la fermeture des dialogues.
 
 PHOTOGRAPHIES
+Logo officiel : monogramme EC, image de profil téléchargée intacte en 746 × 746 (brand-ec.jpg).
 Huit créations réelles, publiées dans les archives de la maison : figue–fleur d’oranger, brioche chocolat–passion, coing–vanille, douceur chocolat–passion–noisette, flan pistache, forêt noire, tropézienne figue–cacahuète et pêche–poivre.
 Originaux produits : largeur 1440 px ; hauteurs 1920, 1919 ou 1734 px.
 Atelier : originaux 1600 × 1200, Clément Berthet / Le Dauphiné Libéré.
@@ -64,4 +72,5 @@ Les archives ne constituent pas une promesse de disponibilité actuelle ni un cl
 
 VÉRIFICATION
 npm run check
-Mise en page inspectée dans le navigateur à 320, 390, 600 et 1440 px. Vérifiés : huit produits, ouverture et boucle du détail, orbite au défilement après sélection manuelle, choix directs, geste horizontal sans ouverture accidentelle, deux vues de boutique, agrandissement, Échap et retour du focus, réduction puis restauration des animations et du parcours clavier. Copie de l’adresse non déclenchée pendant ces essais. La simulation ne remplace pas les essais sur téléphone physique.
+Vérification V5 précédente : mise en page inspectée dans le navigateur à 320, 390, 600 et 1440 px. Vérifiés : huit produits, ouverture et boucle du détail, orbite au défilement après sélection manuelle, choix directs, geste horizontal sans ouverture accidentelle, deux vues de boutique, agrandissement, Échap et retour du focus, réduction puis restauration des animations et du parcours clavier. Copie de l’adresse non déclenchée pendant ces essais. La simulation ne remplace pas les essais sur téléphone physique.
+V6 : contrôle du logo chargé, de la typographie et des cadres circulaires à 320, 390, 600 et 1440 px ; absence de débordement horizontal. Menu contrôlé à 320 px, galerie circulaire sur grand écran et ouverture de la photo originale vérifiés. Les disques du hero sont environ 10 % plus petits que la première version circulaire. Le nom exact de la police officielle reste non vérifié.
