@@ -23,6 +23,30 @@ Fichier conservé comme référence complémentaire : dist/assets/atelier-social
 
 Boutique rénovée, source fournisseur OCF
 https://fr.linkedin.com/posts/ocf-vitrines_ocf-patisserie-chefpatissier-activity-7508775607128780801-RbYy
-Fichier repris du dossier de références fourni : dist/assets/boutique.jpg
+Original intégral retrouvé dans la publication fournisseur : dist/assets/boutique-hd.jpg, 2016 × 1512
 
 Les photographies sont des références publiques intégrées à une proposition privée. Leur présence publique ne constitue pas une licence d’exploitation commerciale.
+
+V5 — cinq créations supplémentaires, originaux complets issus des publications officielles.
+
+Douceur chocolat–passion–noisette — 24 octobre 2026
+https://www.instagram.com/p/De3gPjOCGGA/
+Fichier : dist/assets/product-4.jpg
+
+Flan pistache — 26 septembre 2026
+https://www.instagram.com/p/Ddve2PyCHdF/
+Fichier : dist/assets/product-5.jpg
+
+Forêt noire — 3 octobre 2026
+https://www.instagram.com/p/DeBZIswCKwc/
+Fichier : dist/assets/product-6.jpg
+
+Tropézienne figue–cacahuète — 26 septembre 2026
+https://www.instagram.com/p/Ddve2PyCHdF/
+Fichier : dist/assets/product-7.jpg
+
+Tarte pêche–poivre — 12 septembre 2026
+https://www.instagram.com/p/DdLR10kCBoB/
+Fichier : dist/assets/product-8.webp
+
+Deuxième vue de la boutique : dist/assets/boutique-detail.jpg, original OCF 1600 × 1200, même publication fournisseur que boutique-hd.jpg.

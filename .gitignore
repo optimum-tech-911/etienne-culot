@@ -1,0 +1,37 @@
+# Local dependencies and caches
+node_modules/
+.cache/
+.vite/
+coverage/
+playwright-report/
+test-results/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+.dev.vars
+.dev.vars.*
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+
+# Local hosting state (no hosting command runs during development)
+.wrangler/
+.cloudflare/
+.openai/
+
+# Logs and operating system files
+*.log
+.DS_Store
+.AppleDouble
+._*
+Thumbs.db
+
+# dist/ contains the editable website, so it MUST stay in Git.
+# Keep package-lock.json in Git too.
